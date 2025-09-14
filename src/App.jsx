@@ -14,8 +14,8 @@ const App = () => {
       <Navbar />
 
       <Routes>
-        <Route path='/' element={<HomePageContent username={username} />} />
-        <Route path='/templates' element={<Templates />} />
+        <Route path='/bombay-portfolio/' element={<HomePageContent username={username} />} />
+        <Route path='/bombay-portfolio/templates' element={<Templates />} />
       </Routes>
 
     </>
