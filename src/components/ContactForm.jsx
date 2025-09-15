@@ -35,8 +35,8 @@ const ContactForm = () => {
 
     return (
         <div className='w-full'>
-            <section className='max-w-[800px] rounded-md px-4 py-4 mx-auto my-4 shadow-sm shadow-blue-500 flex items-center justify-between gap-4'>
-                <div className='f_content w-1/2 '>
+            <section className='max-w-[800px] rounded-md px-4 py-4 mx-auto my-4 shadow-sm shadow-blue-500 lg:flex items-center lg:justify-between gap-4'>
+                <div className='f_content lg:w-1/2'>
                     <h1 className="text-4xl font-extrabold text-white text-center mb-6">
                         Contact me for collaboration
                     </h1>
@@ -44,7 +44,7 @@ const ContactForm = () => {
                         Reach out today to discuss your project needs and start collaborating on something amazing.
                     </p>
                 </div>
-                <form onSubmit={handleSubmit} className="space-y-6 w-1/2 bg-blue-500 p-5 rounded-md">
+                <form onSubmit={handleSubmit} className="space-y-6 lg:w-1/2 bg-blue-500 p-5 rounded-md">
                     <div>
                         <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1 px-2">
                             Name
