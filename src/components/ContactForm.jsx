@@ -92,7 +92,7 @@ const ContactForm = () => {
                     </div>
                     <button
                         type="submit"
-                        className="w-full bg-blue-400 text-white py-3 rounded-full font-semibold text-lg hover:bg-blue-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-800"
+                        className="w-full text-md bg-blue-300/50 border-1 border-blue-200 px-4 py-2 rounded-full font-medium hover:underline hover:text-xl transition-all active:scale-95"
                     >
                         Sign Up
                     </button>

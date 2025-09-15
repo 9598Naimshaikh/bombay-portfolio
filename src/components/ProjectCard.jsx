@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const ProjectCard = (props) => {
     
@@ -11,7 +12,7 @@ const ProjectCard = (props) => {
                 <h3 className='text-xl font-extrabold'>Hi, I'm {props.name}</h3>
             </div>
             <p className='text-center'>{props.role}</p>
-            <div className="skills flex items-center justify-center gap-2 flex-wrap">
+            <div className="skills mb-4 flex items-center justify-center gap-2 flex-wrap">
                 <p className='bg-pink-300 font-medium px-2 py-[0.8px] rounded-full text-xs border-1 border-blue-300'>{props.skills[0]}</p>
                 <p className='bg-blue-300 font-medium px-2 py-[0.8px] rounded-full text-xs border-1 border-blue-300'>{props.skills[1]}</p>
                 <p className='bg-yellow-400 font-medium px-2 py-[0.8px] rounded-full text-xs border-1 border-blue-300'>{props.skills[2]}</p>
@@ -19,7 +20,7 @@ const ProjectCard = (props) => {
                 <p className='bg-blue-300 font-medium px-2 py-[0.8px] rounded-full text-xs border-1 border-blue-300'>{props.skills[4]}</p>
 
             </div>
-            <button className='bg-blue-500/50 backdrop-blur-md border-1 border-blue-200 font-medium cursor-pointer px-4 py-2 rounded-full '>View Github Profile</button>
+            <Button>View Github Profile</Button>
         </div>
     )
 }
